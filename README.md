@@ -1,5 +1,12 @@
-Lesson/Module Title
+Modeling chemical kinetics using DFT transition states and the Eyring equation
 ===================
+
+This module introduces students to the calculation of transition states using
+density functional theory (DFT), use the resulting energies to calculate rate
+constants from the Eyring equation, and model time dependent chemical kinetics.
+Students in a physical chemistry laboratory can finish each sub-module in two
+three hour laboratory meeings. 
+
 
 Write a short description (2-3 sentences) of your lesson here. The `main`
 branch of your lesson repository is the most public-facing branch, which will
@@ -10,15 +17,12 @@ level), and time required.
 
 ## Lesson/Module Contents
 
-Provide a brief overview of the structure of your module or lesson as an
-enumerated list below:
-
-1. Title of first lesson in module
-    * Directory: `01_first-lesson`
-    * Description: Extremely brief description of lesson content
-    * Time: 2-3 hours
-2. Title of second lesson in module (if present)
-    * Directory: `02_second-lesson`
-    * Description: Extremely brief description of lesson content
-    * Time: 2-3 hours
+1. Finding transition states using DFT
+    * Directory: `01_Finding-DFT-TS`
+    * Description: Goes over techniques for finding transtion states of SN1, Sn2, E1, and E2 reactions using DFT. 
+    * Time: 3-4 hours
+2. Calculating rate constants and modeling kinetics
+    * Directory: `02_Kinetics-Modeling`
+    * Description: Goes over calculating rate constants using the Eyring equation and modeling chemical kinetics with Python. 
+    * Time: 3-4 hours
 
