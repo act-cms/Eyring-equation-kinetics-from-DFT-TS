@@ -18,4 +18,4 @@ Lesson 01: Finding transition states using DFT
 
     * You will need to have the SEQCROW tools installed to draw and make input files. Go to Tools &rarr; More Tools... Search for SEQCROW in the ChimeraX Toolshed window that appears, click on SEQCROW and install.
 
-    * To draw simple molecules go to Tools &rarr; Structure Editing &rarr; 2D Builder. This will open a new window
+    * To draw simple molecules go to Tools &rarr; Structure Editing &rarr; 2D Builder. This will open a new window where you can draw Lewis structures. 
