@@ -10,4 +10,12 @@ Lesson 01: Finding transition states using DFT
  ## Outline
  For today we will be investigating the thermodynamic and kinetic control of the reaction of a secondary alkyl halide, 2-bromopropane, with the nucleophilic base methoxide. In this reaction there are four competing mechanisms (SN1, SN2, E1, and E2) which result in two different sets of products
 
- <img src="./RXN-01.svg" />
+ <img src="./RXN-01.svg" style="background-color: white; padding: 5px;"/>
+
+ ### Task 01 - Calculate the thermodynamic reaction energies of the two overall reactions using B3LYP/6-311G*. 
+
+ 1) Open up ChimeraX and draw each product and reactant as separate molecules.
+
+    * You will need to have the SEQCROW tools installed to draw and make input files. Go to Tools &rarr; More Tools... Search for SEQCROW in the ChimeraX Toolshed window that appears, click on SEQCROW and install.
+
+    * To draw simple molecules go to Tools &rarr; Structure Editing &rarr; 2D Builder. This will open a new window
