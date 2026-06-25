@@ -30,6 +30,20 @@ At the end of this lesson, students will be able to...
 
     * Before you click the "open molecule" button make sure to name your molecule. You can also rename molecules (models in ChimeraX language) by double clicking on the name of the model in the Model Panel, usually inset on the bottom right. If the Model Panel is not visibal you can access it by going to Tools &rarr; General &rarr; Model Panel. 
     
-    * It is often useful to save your molecules as *.xyz files.
+    * **NOTE**: It is often useful to save your molecules as *.xyz files.
 
-2) Generate an ORCA input file 
+2) Generate ORCA input files (geometry optimization + vibrational frequency calculation) for each model/molecule.
+
+    * To generate an ORCA input file using ChimeraX go to Tools &rarr; Quantum Chemistry &rarr; Build QM Input. This will open a new window where you can specify the parameters for your calculations. 
+
+    * From the first drop-down (file type) make sure that **ORCA** is selected.
+
+    * On the second drop-down (structure) choose one of your models/molecules.
+
+    * On the ***job details*** tab make sure that the charge and multiplicity are appropriate for the model/molecule selected. For methoxide and bromide the charge will be negative one as these are monanions. All of the other molecules have a neutral charge (0). The multiplicity for all of the molecules here is one (a singlet state), representing that all electrons are paired ($S=0$). 
+    
+      >Molecules that have one, two or three unpaired electrons generally have doublet, triplet, and quartet ground states with multiplicities of 2, 3, and 4. The formula for determining the multiplicity of a molecule depends on the total electronic spin quantum number, $S$, where multiplicity = $2S+1$. 
+
+    * Make sure the "geometry optimization" and "frequency calculation" boxes are checked in the ***job details*** tab.
+
+    * The ***job details*** tab contains: <u>*execution*</u>, <u>*solvent*</u>, <u>*optimization settings*</u>, <u>*frequency settings*</u>, and <u>*NMR settings*</u> tabs. 
