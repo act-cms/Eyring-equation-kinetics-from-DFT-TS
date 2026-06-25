@@ -14,8 +14,10 @@ Lesson 01: Finding transition states using DFT
 
  ### Task 01 - Calculate the thermodynamic reaction energies of the two overall reactions using B3LYP/6-311G*. 
 
- 1) Open up ChimeraX and draw each product and reactant as separate molecules.
+ 1) Open up ChimeraX and draw each product and reactant as separate molecules. You should have six total molecules as different models in the ChimeraX Model Panel when you are done (2-bromopropane, methoxide, 2-methoxypropane, propylene, methanol, and bromide).
 
-    * You will need to have the SEQCROW tools installed to draw and make input files. Go to Tools &rarr; More Tools... Search for SEQCROW in the ChimeraX Toolshed window that appears, click on SEQCROW and install.
+    * You will need to have the SEQCROW tools installed to draw and make input files for quantum chemistry programs. Go to Tools &rarr; More Tools... Search for SEQCROW in the ChimeraX Toolshed window that appears, click on SEQCROW and install.
 
-    * To draw simple molecules go to Tools &rarr; Structure Editing &rarr; 2D Builder. This will open a new window where you can draw Lewis structures. 
+    * To draw simple molecules go to Tools &rarr; Structure Editing &rarr; 2D Builder. This will open a new window where you can draw Lewis structures. Make sure to indicate correct charges on atoms for methoxide, [CH<sub>3</sub>O]<sup>-</sup>, and bromide, Br<sup>-</sup>.
+
+    * Before you click the "open molecule" button make sure to name your molecule. You can also rename molecules (models in ChimeraX language) by double clicking on the name of the model in the Model Panel, usually inset on the bottom right. If the Model Panel is not visibal you can access it by going to Tools &rarr; General &rarr; Model Panel. 
